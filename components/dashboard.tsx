@@ -82,7 +82,7 @@ export function Dashboard({ data, events, sourceLabel, onChangeSource, autoShowT
 
       <div className="mx-auto max-w-4xl">
         {/* Header */}
-        <div className="mb-16 border-b border-ink pb-8 flex items-center justify-between gap-8">
+        <div className="mb-16 border-b border-ink pb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-6 sm:gap-8">
           {/* Left: Title and Subtitle */}
           <div className="flex-1">
             <h1 className="font-serif text-5xl font-bold text-ink">
@@ -94,11 +94,11 @@ export function Dashboard({ data, events, sourceLabel, onChangeSource, autoShowT
           </div>
 
           {/* Right: Tagline and Actions */}
-          <div className="flex flex-col items-end gap-3">
+          <div className="flex flex-col items-start sm:items-end gap-3">
             <p className="font-mono text-xs text-ink/60">
               Reads your SMS inbox. Nothing leaves your browser.
             </p>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
               {sourceLabel && (
                 <span className="font-mono text-xs uppercase text-ink/40">
                   Source: {sourceLabel}
