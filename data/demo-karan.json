@@ -1,0 +1,583 @@
+[
+  {
+    "id": "evt_001",
+    "ts": "2026-01-04T10:26:55+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 149.00 has been debited from A/c XX9042 on 04-01-26 for YOUTUBE PREMIUM. Ref No 1850779075. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_002",
+    "ts": "2026-01-05T08:38:08+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 999.00 has been debited from A/c XX9042 on 05-01-26 for HEALTHIFYME PLUS. Ref No 5408220200. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_003",
+    "ts": "2026-01-06T10:25:33+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 179.00 has been debited from A/c XX9042 on 06-01-26 for BOOKMYSHOW GOLD. Ref No 6781829225. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_004",
+    "ts": "2026-01-06T12:52:15+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 499.00 has been debited from A/c XX9042 on 06-01-26 for TIMES PRIME. Ref No 4611089298. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_005",
+    "ts": "2026-01-11T16:57:36+05:30",
+    "channel": "sms",
+    "sender": "BMSHOW",
+    "body": "New releases this week on BookMyShow! Book now & get Rs.75 off with code WATCH75."
+  },
+  {
+    "id": "evt_006",
+    "ts": "2026-01-12T20:30:00+05:30",
+    "channel": "sms",
+    "sender": "BMSHOW",
+    "body": "Booking Confirmed! 2 tickets for Kalki 3 on 12 Jan, BookMyShow Gold member discount applied. Enjoy the show!"
+  },
+  {
+    "id": "evt_007",
+    "ts": "2026-01-13T09:57:55+05:30",
+    "channel": "sms",
+    "sender": "HEALTHIFY",
+    "body": "Check-in successful at your gym via HealthifyMe Plus on 13-01-26. Keep up the streak!"
+  },
+  {
+    "id": "evt_008",
+    "ts": "2026-01-13T20:07:22+05:30",
+    "channel": "sms",
+    "sender": "YOUTUBE",
+    "body": "New device signed in to your YouTube Premium account on 13-01-26. If this wasn't you, remove the device from Settings."
+  },
+  {
+    "id": "evt_009",
+    "ts": "2026-01-15T21:24:21+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "643764 is OTP for your YONO SBI txn. Valid 10 min. Never share OTP with anyone incl. SBI staff. -SBI"
+  },
+  {
+    "id": "evt_010",
+    "ts": "2026-01-16T01:08:37+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Your Apple subscription payment of Rs 99.00 was processed for Apple Music. Manage subscriptions in Settings > Apple ID."
+  },
+  {
+    "id": "evt_011",
+    "ts": "2026-01-20T10:58:40+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 400.00 has been debited from A/c XX9042 on 20-01-26 for NOTION LABS. Ref No 4184299129. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_012",
+    "ts": "2026-01-20T16:12:54+05:30",
+    "channel": "email",
+    "sender": "team@makenotion.com",
+    "body": "New login to your Notion account from a new device. If this wasn't you, please secure your account."
+  },
+  {
+    "id": "evt_013",
+    "ts": "2026-01-26T21:00:00+05:30",
+    "channel": "sms",
+    "sender": "BMSHOW",
+    "body": "Booking Confirmed! 2 tickets for Animal Park on 26 Jan, BookMyShow Gold member discount applied. Enjoy the show!"
+  },
+  {
+    "id": "evt_014",
+    "ts": "2026-02-01T12:09:39+05:30",
+    "channel": "sms",
+    "sender": "SBICARD",
+    "body": "Your SBI Card statement is generated. Pay by due date to avoid late fee. Check YONO app."
+  },
+  {
+    "id": "evt_015",
+    "ts": "2026-02-02T06:36:51+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 999.00 has been debited from A/c XX9042 on 02-02-26 for HEALTHIFYME PLUS. Ref No 5122868341. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_016",
+    "ts": "2026-02-04T07:27:28+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 149.00 has been debited from A/c XX9042 on 04-02-26 for YOUTUBE PREMIUM. Ref No 8949447005. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_017",
+    "ts": "2026-02-08T09:15:35+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 179.00 has been debited from A/c XX9042 on 08-02-26 for BOOKMYSHOW GOLD. Ref No 9067871588. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_018",
+    "ts": "2026-02-08T11:23:38+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 499.00 has been debited from A/c XX9042 on 08-02-26 for TIMES PRIME. Ref No 2997572364. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_019",
+    "ts": "2026-02-08T16:46:45+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 91.73 has been debited from A/c XX9042 on 08-02-26 for DMART. Ref No 1335074767. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_020",
+    "ts": "2026-02-12T15:53:03+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 282.36 has been debited from A/c XX9042 on 12-02-26 for PETROL PUMP. Ref No 7341898028. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_021",
+    "ts": "2026-02-12T20:44:50+05:30",
+    "channel": "sms",
+    "sender": "YOUTUBE",
+    "body": "New device signed in to your YouTube Premium account on 12-02-26. If this wasn't you, remove the device from Settings."
+  },
+  {
+    "id": "evt_022",
+    "ts": "2026-02-13T01:03:42+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Your Apple subscription payment of Rs 99.00 was processed for Apple Music. Manage subscriptions in Settings > Apple ID."
+  },
+  {
+    "id": "evt_023",
+    "ts": "2026-02-14T19:08:59+05:30",
+    "channel": "sms",
+    "sender": "TIMESPRIME",
+    "body": "You unlocked a new benefit on Times Prime! Login to claim your monthly perk before it expires on 19-02."
+  },
+  {
+    "id": "evt_024",
+    "ts": "2026-02-15T09:23:19+05:30",
+    "channel": "sms",
+    "sender": "HEALTHIFY",
+    "body": "Check-in successful at your gym via HealthifyMe Plus on 15-02-26. Keep up the streak!"
+  },
+  {
+    "id": "evt_025",
+    "ts": "2026-02-18T11:33:55+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 400.00 has been debited from A/c XX9042 on 18-02-26 for NOTION LABS. Ref No 5375254704. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_026",
+    "ts": "2026-02-18T16:47:13+05:30",
+    "channel": "email",
+    "sender": "team@makenotion.com",
+    "body": "New login to your Notion account from a new device. If this wasn't you, please secure your account."
+  },
+  {
+    "id": "evt_027",
+    "ts": "2026-02-21T11:56:08+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 251.24 has been debited from A/c XX9042 on 21-02-26 for DMART. Ref No 8649463642. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_028",
+    "ts": "2026-03-01T09:12:15+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 149.00 has been debited from A/c XX9042 on 01-03-26 for YOUTUBE PREMIUM. Ref No 3246121161. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_029",
+    "ts": "2026-03-05T07:00:23+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 999.00 has been debited from A/c XX9042 on 05-03-26 for HEALTHIFYME PLUS. Ref No 4404414678. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_030",
+    "ts": "2026-03-06T13:48:35+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 499.00 has been debited from A/c XX9042 on 06-03-26 for TIMES PRIME. Ref No 7328554241. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_031",
+    "ts": "2026-03-07T07:12:06+05:30",
+    "channel": "sms",
+    "sender": "HEALTHIFY",
+    "body": "Check-in successful at your gym via HealthifyMe Plus on 07-03-26. Keep up the streak!"
+  },
+  {
+    "id": "evt_032",
+    "ts": "2026-03-07T09:12:37+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 179.00 has been debited from A/c XX9042 on 07-03-26 for BOOKMYSHOW GOLD. Ref No 2393170730. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_033",
+    "ts": "2026-03-10T18:17:08+05:30",
+    "channel": "sms",
+    "sender": "SBICARD",
+    "body": "SBI Card: Flat 10% instant discount on your next Amazon purchase. Valid till stocks last. T&C apply."
+  },
+  {
+    "id": "evt_034",
+    "ts": "2026-03-12T20:57:16+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "928262 is OTP for your YONO SBI txn. Valid 10 min. Never share OTP with anyone incl. SBI staff. -SBI"
+  },
+  {
+    "id": "evt_035",
+    "ts": "2026-03-16T01:43:57+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Your Apple subscription payment of Rs 99.00 was processed for Apple Music. Manage subscriptions in Settings > Apple ID."
+  },
+  {
+    "id": "evt_036",
+    "ts": "2026-03-18T11:42:45+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 400.00 has been debited from A/c XX9042 on 18-03-26 for NOTION LABS. Ref No 6306597804. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_037",
+    "ts": "2026-03-18T16:12:23+05:30",
+    "channel": "email",
+    "sender": "team@makenotion.com",
+    "body": "New login to your Notion account from a new device. If this wasn't you, please secure your account."
+  },
+  {
+    "id": "evt_038",
+    "ts": "2026-03-20T20:27:15+05:30",
+    "channel": "sms",
+    "sender": "YOUTUBE",
+    "body": "New device signed in to your YouTube Premium account on 20-03-26. If this wasn't you, remove the device from Settings."
+  },
+  {
+    "id": "evt_039",
+    "ts": "2026-03-27T13:12:23+05:30",
+    "channel": "sms",
+    "sender": "SBIYONO",
+    "body": "Get Pre-Approved Personal Loan up to Rs.15 Lakh on YONO SBI. Apply in 3 easy steps."
+  },
+  {
+    "id": "evt_040",
+    "ts": "2026-04-03T07:29:02+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 999.00 has been debited from A/c XX9042 on 03-04-26 for HEALTHIFYME PLUS. Ref No 7130921504. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_041",
+    "ts": "2026-04-04T09:30:08+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 149.00 has been debited from A/c XX9042 on 04-04-26 for YOUTUBE PREMIUM. Ref No 7123395829. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_042",
+    "ts": "2026-04-05T11:32:24+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 179.00 has been debited from A/c XX9042 on 05-04-26 for BOOKMYSHOW GOLD. Ref No 2370685824. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_043",
+    "ts": "2026-04-08T11:47:39+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 699.00 has been debited from A/c XX9042 on 08-04-26 for TIMES PRIME. Ref No 3486181176. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_044",
+    "ts": "2026-04-13T21:00:01+05:30",
+    "channel": "sms",
+    "sender": "TIMESPRIME",
+    "body": "You unlocked a new benefit on Times Prime! Login to claim your monthly perk before it expires on 18-04."
+  },
+  {
+    "id": "evt_045",
+    "ts": "2026-04-14T01:16:35+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Your Apple subscription payment of Rs 99.00 was processed for Apple Music. Manage subscriptions in Settings > Apple ID."
+  },
+  {
+    "id": "evt_046",
+    "ts": "2026-04-15T16:20:00+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 89.00 has been debited from A/c XX9042 on 15-04-26 for YOUTUBE MUSIC 1MO TRIAL. Ref No 4432023179. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_047",
+    "ts": "2026-04-20T09:50:28+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 400.00 has been debited from A/c XX9042 on 20-04-26 for NOTION LABS. Ref No 8633351255. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_048",
+    "ts": "2026-04-20T16:27:53+05:30",
+    "channel": "email",
+    "sender": "team@makenotion.com",
+    "body": "New login to your Notion account from a new device. If this wasn't you, please secure your account."
+  },
+  {
+    "id": "evt_049",
+    "ts": "2026-04-22T09:31:24+05:30",
+    "channel": "sms",
+    "sender": "HEALTHIFY",
+    "body": "Check-in successful at your gym via HealthifyMe Plus on 22-04-26. Keep up the streak!"
+  },
+  {
+    "id": "evt_050",
+    "ts": "2026-05-01T08:48:16+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 149.00 has been debited from A/c XX9042 on 01-05-26 for YOUTUBE PREMIUM. Ref No 7214534370. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_051",
+    "ts": "2026-05-03T08:14:54+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 999.00 has been debited from A/c XX9042 on 03-05-26 for HEALTHIFYME PLUS. Ref No 3592405011. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_052",
+    "ts": "2026-05-03T14:55:41+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 202.73 has been debited from A/c XX9042 on 03-05-26 for CHAI WALA. Ref No 9350344600. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_053",
+    "ts": "2026-05-07T11:10:16+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 179.00 has been debited from A/c XX9042 on 07-05-26 for BOOKMYSHOW GOLD. Ref No 8204348152. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_054",
+    "ts": "2026-05-07T11:59:23+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 699.00 has been debited from A/c XX9042 on 07-05-26 for TIMES PRIME. Ref No 8230409274. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_055",
+    "ts": "2026-05-09T18:24:45+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 593.08 has been debited from A/c XX9042 on 09-05-26 for APOLLO PHARMACY. Ref No 3211933849. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_056",
+    "ts": "2026-05-10T21:57:57+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "847836 is OTP for your YONO SBI txn. Valid 10 min. Never share OTP with anyone incl. SBI staff. -SBI"
+  },
+  {
+    "id": "evt_057",
+    "ts": "2026-05-14T19:12:32+05:30",
+    "channel": "sms",
+    "sender": "BMSHOW",
+    "body": "New releases this week on BookMyShow! Book now & get Rs.75 off with code WATCH75."
+  },
+  {
+    "id": "evt_058",
+    "ts": "2026-05-14T21:12:19+05:30",
+    "channel": "sms",
+    "sender": "YOUTUBE",
+    "body": "New device signed in to your YouTube Premium account on 14-05-26. If this wasn't you, remove the device from Settings."
+  },
+  {
+    "id": "evt_059",
+    "ts": "2026-05-16T01:11:44+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Your Apple subscription payment of Rs 99.00 was processed for Apple Music. Manage subscriptions in Settings > Apple ID."
+  },
+  {
+    "id": "evt_060",
+    "ts": "2026-05-20T20:16:42+05:30",
+    "channel": "sms",
+    "sender": "FLIPKRT",
+    "body": "Flipkart Fashion Sale: Buy 2 Get 1 Free on top brands. Shop before it's gone!"
+  },
+  {
+    "id": "evt_061",
+    "ts": "2026-05-21T11:17:34+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 400.00 has been debited from A/c XX9042 on 21-05-26 for NOTION LABS. Ref No 3294950143. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_062",
+    "ts": "2026-05-21T14:47:05+05:30",
+    "channel": "email",
+    "sender": "team@makenotion.com",
+    "body": "New login to your Notion account from a new device. If this wasn't you, please secure your account."
+  },
+  {
+    "id": "evt_063",
+    "ts": "2026-06-02T06:29:30+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 999.00 has been debited from A/c XX9042 on 02-06-26 for HEALTHIFYME PLUS. Ref No 2005761758. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_064",
+    "ts": "2026-06-04T09:02:59+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 149.00 has been debited from A/c XX9042 on 04-06-26 for YOUTUBE PREMIUM. Ref No 4857070306. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_065",
+    "ts": "2026-06-07T11:19:12+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 899.00 has been debited from A/c XX9042 on 07-06-26 for TIMES PRIME. Ref No 9300018848. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_066",
+    "ts": "2026-06-07T11:41:56+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 179.00 has been debited from A/c XX9042 on 07-06-26 for BOOKMYSHOW GOLD. Ref No 7687521650. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_067",
+    "ts": "2026-06-08T11:12:21+05:30",
+    "channel": "sms",
+    "sender": "SBICARD",
+    "body": "SBI Card: Flat 10% instant discount on your next Amazon purchase. Valid till stocks last. T&C apply."
+  },
+  {
+    "id": "evt_068",
+    "ts": "2026-06-12T20:55:49+05:30",
+    "channel": "sms",
+    "sender": "TIMESPRIME",
+    "body": "You unlocked a new benefit on Times Prime! Login to claim your monthly perk before it expires on 17-06."
+  },
+  {
+    "id": "evt_069",
+    "ts": "2026-06-14T01:51:48+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Your Apple subscription payment of Rs 99.00 was processed for Apple Music. Manage subscriptions in Settings > Apple ID."
+  },
+  {
+    "id": "evt_070",
+    "ts": "2026-06-14T21:55:29+05:30",
+    "channel": "sms",
+    "sender": "YOUTUBE",
+    "body": "New device signed in to your YouTube Premium account on 14-06-26. If this wasn't you, remove the device from Settings."
+  },
+  {
+    "id": "evt_071",
+    "ts": "2026-06-20T09:45:51+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 400.00 has been debited from A/c XX9042 on 20-06-26 for NOTION LABS. Ref No 9777193371. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_072",
+    "ts": "2026-06-20T15:26:37+05:30",
+    "channel": "email",
+    "sender": "team@makenotion.com",
+    "body": "New login to your Notion account from a new device. If this wasn't you, please secure your account."
+  },
+  {
+    "id": "evt_073",
+    "ts": "2026-06-29T18:01:32+05:30",
+    "channel": "sms",
+    "sender": "SWIGGY",
+    "body": "Craving something? Get 60% OFF on your first 3 orders this week. Order now on Swiggy!"
+  },
+  {
+    "id": "evt_074",
+    "ts": "2026-07-01T07:24:16+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 149.00 has been debited from A/c XX9042 on 01-07-26 for YOUTUBE PREMIUM. Ref No 1049911681. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_075",
+    "ts": "2026-07-02T17:05:17+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 268.26 has been debited from A/c XX9042 on 02-07-26 for CHAI WALA. Ref No 2489186916. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_076",
+    "ts": "2026-07-03T06:02:26+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 999.00 has been debited from A/c XX9042 on 03-07-26 for HEALTHIFYME PLUS. Ref No 9847943473. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_077",
+    "ts": "2026-07-06T10:03:56+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 179.00 has been debited from A/c XX9042 on 06-07-26 for BOOKMYSHOW GOLD. Ref No 1066671322. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_078",
+    "ts": "2026-07-06T13:02:44+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 899.00 has been debited from A/c XX9042 on 06-07-26 for TIMES PRIME. Ref No 9091397532. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_079",
+    "ts": "2026-07-08T17:53:31+05:30",
+    "channel": "sms",
+    "sender": "HEALTHIFY",
+    "body": "New Year, New You! Get 3 months FREE on annual HealthifyMe Plus plans. Offer ends soon."
+  },
+  {
+    "id": "evt_080",
+    "ts": "2026-07-13T21:49:03+05:30",
+    "channel": "sms",
+    "sender": "YOUTUBE",
+    "body": "New device signed in to your YouTube Premium account on 13-07-26. If this wasn't you, remove the device from Settings."
+  },
+  {
+    "id": "evt_081",
+    "ts": "2026-07-14T01:42:45+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Your Apple subscription payment of Rs 99.00 was processed for Apple Music. Manage subscriptions in Settings > Apple ID."
+  },
+  {
+    "id": "evt_082",
+    "ts": "2026-07-20T10:15:00+05:30",
+    "channel": "sms",
+    "sender": "SBIBNK",
+    "body": "Dear Customer, Rs 400.00 has been debited from A/c XX9042 on 20-07-26 for NOTION LABS. Ref No 5175579166. If not done by you, forward this SMS to 9223440000 to block. -SBI"
+  },
+  {
+    "id": "evt_083",
+    "ts": "2026-07-20T14:31:04+05:30",
+    "channel": "email",
+    "sender": "team@makenotion.com",
+    "body": "New login to your Notion account from a new device. If this wasn't you, please secure your account."
+  }
+]

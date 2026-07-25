@@ -1,35 +1,33 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Dashboard as DashboardData, Subscription } from '@/lib/types'
+import type { InboxEvent } from '@/lib/engine'
 import { DashboardHero } from './dashboard-hero'
 import { SubscriptionCard } from './subscription-card'
 import { DetailDrawer } from './detail-drawer'
-import { OnboardingModal } from './onboarding-modal'
 import { PrivacyBadge } from './privacy-badge'
 import { GuidedTour, type TourStep } from './guided-tour'
-import { JargonTooltip } from './jargon-tooltip'
+import { InboxViewer } from './inbox-viewer'
 
 interface DashboardProps {
   data: DashboardData
+  // Raw source messages, shown in the "View Messages" viewer.
+  events: InboxEvent[]
+  // Label of the currently loaded source, e.g. "Karan" or "Your upload".
+  sourceLabel?: string | null
+  // Reopens the data-source picker so the user can switch datasets.
+  onChangeSource?: () => void
+  // Auto-opens the guided tour once, the first time this dataset loads.
+  autoShowTour?: boolean
 }
 
-function playClickSound() {
-  try {
-    const audio = new Audio('/sounds/ui-pop.mp3')
-    audio.volume = 0.35
-    audio.play().catch(() => {
-      // Silently fail if audio playback is not available
-    })
-  } catch {
-    // Silently fail if Audio is not available
-  }
-}
-
-export function Dashboard({ data }: DashboardProps) {
+export function Dashboard({ data, events, sourceLabel, onChangeSource, autoShowTour }: DashboardProps) {
   const [selectedSubscription, setSelectedSubscription] =
     useState<Subscription | null>(null)
   const [showTour, setShowTour] = useState(false)
+  const [showInbox, setShowInbox] = useState(false)
+  const hasAutoShown = useRef(false)
 
   // Sort subscriptions: zombies and price hikes first, then others
   const sortedSubscriptions = [...data.subscriptions].sort((a, b) => {
@@ -71,15 +69,15 @@ export function Dashboard({ data }: DashboardProps) {
       : []),
   ]
 
-  function handleLoadDemo() {
-    // User-initiated only — never plays on mount or automatically.
-    playClickSound()
-    setShowTour(true)
-  }
+  useEffect(() => {
+    if (autoShowTour && !hasAutoShown.current) {
+      hasAutoShown.current = true
+      setShowTour(true)
+    }
+  }, [autoShowTour])
 
   return (
     <main className="min-h-screen bg-paper p-6 md:p-12 lg:p-16">
-      <OnboardingModal onLoadDemo={handleLoadDemo} />
       <PrivacyBadge />
 
       <div className="mx-auto max-w-4xl">
@@ -101,6 +99,11 @@ export function Dashboard({ data }: DashboardProps) {
               Reads your SMS inbox. Nothing leaves your browser.
             </p>
             <div className="flex items-center gap-4">
+              {sourceLabel && (
+                <span className="font-mono text-xs uppercase text-ink/40">
+                  Source: {sourceLabel}
+                </span>
+              )}
               <button
                 onClick={() => setShowTour(true)}
                 disabled={tourSteps.length === 0}
@@ -110,11 +113,20 @@ export function Dashboard({ data }: DashboardProps) {
               >
                 ?
               </button>
-              <JargonTooltip term="Import your own" explanation="Coming soon">
-                <span className="font-mono text-xs uppercase text-ink/40 cursor-not-allowed">
-                  Import your own
-                </span>
-              </JargonTooltip>
+              <button
+                onClick={() => setShowInbox(true)}
+                className="font-mono text-xs uppercase text-ink hover:text-ink/70 transition"
+              >
+                View messages
+              </button>
+              {onChangeSource && (
+                <button
+                  onClick={onChangeSource}
+                  className="font-mono text-xs uppercase text-ink hover:text-ink/70 transition"
+                >
+                  Change data
+                </button>
+              )}
             </div>
           </div>
         </div>
@@ -158,6 +170,9 @@ export function Dashboard({ data }: DashboardProps) {
 
       {/* Guided Tour */}
       {showTour && <GuidedTour steps={tourSteps} onClose={() => setShowTour(false)} />}
+
+      {/* Raw message viewer */}
+      {showInbox && <InboxViewer events={events} onClose={() => setShowInbox(false)} />}
     </main>
   )
 }

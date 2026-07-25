@@ -1,0 +1,695 @@
+[
+  {
+    "id": "evt_001",
+    "ts": "2026-01-02T11:36:30+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards ZOMATOPRO on 02-Jan-26. Info: UPI Ref 646175231041. Available balance: INR 12,970.12. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_002",
+    "ts": "2026-01-03T14:57:43+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 730.34 has been debited from a/c XX7823 towards 1MG PHARMACY on 03-Jan-26. Info: UPI Ref 958464345865. Available balance: INR 2,151.05. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_003",
+    "ts": "2026-01-04T08:17:59+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 499.00 has been debited from a/c XX7823 towards PRACTOPLUS on 04-Jan-26. Info: UPI Ref 375539522466. Available balance: INR 8,059.56. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_004",
+    "ts": "2026-01-04T11:29:03+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards NETFLIX on 04-Jan-26. Info: UPI Ref 652605398608. Available balance: INR 4,788.80. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_005",
+    "ts": "2026-01-05T12:14:59+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 802.60 has been debited from a/c XX7823 towards OLA CABS on 05-Jan-26. Info: UPI Ref 894544487386. Available balance: INR 13,226.08. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_006",
+    "ts": "2026-01-07T09:08:02+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 299.00 has been debited from a/c XX7823 towards AUDIBLE on 07-Jan-26. Info: UPI Ref 310391705896. Available balance: INR 13,650.45. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_007",
+    "ts": "2026-01-07T22:13:34+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "199299 is your OTP to login to Netflix. Valid for 10 mins. Do not share this OTP with anyone. -ICICI"
+  },
+  {
+    "id": "evt_008",
+    "ts": "2026-01-10T20:00:00+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Your Zomato Pro order #162472 is being prepared! Enjoy your exclusive member discount. Track: zmto.app/t/162472"
+  },
+  {
+    "id": "evt_009",
+    "ts": "2026-01-10T20:47:00+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Order #162472 delivered! Hope you enjoyed your Zomato Pro meal. Rate your delivery partner in the app."
+  },
+  {
+    "id": "evt_010",
+    "ts": "2026-01-11T11:56:27+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 99.00 has been debited from a/c XX7823 towards SONYLIV on 11-Jan-26. Info: UPI Ref 599090472240. Available balance: INR 14,664.11. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_011",
+    "ts": "2026-01-12T11:02:15+05:30",
+    "channel": "email",
+    "sender": "no-reply@audible.in",
+    "body": "Your Audible membership credit for January has been added to your account. 1 credit available to redeem."
+  },
+  {
+    "id": "evt_012",
+    "ts": "2026-01-16T11:28:55+05:30",
+    "channel": "sms",
+    "sender": "PRACTO",
+    "body": "Appointment confirmed with Dr. Iyer (Nutritionist) on 16 Jan via Practo Plus. Video consult link will be shared 10 mins prior."
+  },
+  {
+    "id": "evt_013",
+    "ts": "2026-01-17T12:59:12+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 1300.00 has been debited from a/c XX7823 towards LINKEDIN PREMIUM on 17-Jan-26. Info: UPI Ref 404444017413. Available balance: INR 11,850.74. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_014",
+    "ts": "2026-01-17T14:21:49+05:30",
+    "channel": "email",
+    "sender": "security-noreply@linkedin.com",
+    "body": "New sign-in to your LinkedIn account from a new device. Review your account activity if this wasn't you."
+  },
+  {
+    "id": "evt_015",
+    "ts": "2026-01-18T14:52:30+05:30",
+    "channel": "sms",
+    "sender": "PRACTO",
+    "body": "Flat 20% off your next Practo Plus consultation. Limited period offer, book now!"
+  },
+  {
+    "id": "evt_016",
+    "ts": "2026-01-20T13:30:31+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "Your ICICI Bank Credit Card is pre-approved with a limit up to INR 5,00,000. Activate now: icicibank.com/cc"
+  },
+  {
+    "id": "evt_017",
+    "ts": "2026-01-20T14:45:45+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Your Amazon order 'Laptop Sleeve' (ID 401-9219231-5798686) is Out for Delivery, arriving today by 9 PM."
+  },
+  {
+    "id": "evt_018",
+    "ts": "2026-01-24T19:30:00+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Your Zomato Pro order #677066 is being prepared! Enjoy your exclusive member discount. Track: zmto.app/t/677066"
+  },
+  {
+    "id": "evt_019",
+    "ts": "2026-01-24T20:11:00+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Order #677066 delivered! Hope you enjoyed your Zomato Pro meal. Rate your delivery partner in the app."
+  },
+  {
+    "id": "evt_020",
+    "ts": "2026-02-03T10:55:55+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards ZOMATOPRO on 03-Feb-26. Info: UPI Ref 856692308180. Available balance: INR 8,897.48. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_021",
+    "ts": "2026-02-04T11:31:44+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards NETFLIX on 04-Feb-26. Info: UPI Ref 335291247604. Available balance: INR 6,277.49. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_022",
+    "ts": "2026-02-05T08:33:51+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 499.00 has been debited from a/c XX7823 towards PRACTOPLUS on 05-Feb-26. Info: UPI Ref 367658733566. Available balance: INR 3,243.12. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_023",
+    "ts": "2026-02-07T08:37:33+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 299.00 has been debited from a/c XX7823 towards AUDIBLE on 07-Feb-26. Info: UPI Ref 116899566609. Available balance: INR 6,328.75. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_024",
+    "ts": "2026-02-08T20:15:00+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Your Zomato Pro order #585506 is being prepared! Enjoy your exclusive member discount. Track: zmto.app/t/585506"
+  },
+  {
+    "id": "evt_025",
+    "ts": "2026-02-08T20:46:00+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Order #585506 delivered! Hope you enjoyed your Zomato Pro meal. Rate your delivery partner in the app."
+  },
+  {
+    "id": "evt_026",
+    "ts": "2026-02-09T11:03:37+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 99.00 has been debited from a/c XX7823 towards SONYLIV on 09-Feb-26. Info: UPI Ref 477926279855. Available balance: INR 11,619.11. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_027",
+    "ts": "2026-02-11T16:42:43+05:30",
+    "channel": "sms",
+    "sender": "PRACTO",
+    "body": "Appointment confirmed with Dr. Rao (General Physician) on 11 Feb via Practo Plus. Video consult link will be shared 10 mins prior."
+  },
+  {
+    "id": "evt_028",
+    "ts": "2026-02-12T12:36:16+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "Your ICICI Bank FD is maturing soon. Renew now for attractive interest rates. -ICICI Bank"
+  },
+  {
+    "id": "evt_029",
+    "ts": "2026-02-12T19:23:45+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "477081 is your OTP to login to Netflix. Valid for 10 mins. Do not share this OTP with anyone. -ICICI"
+  },
+  {
+    "id": "evt_030",
+    "ts": "2026-02-14T10:19:33+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 1300.00 has been debited from a/c XX7823 towards LINKEDIN PREMIUM on 14-Feb-26. Info: UPI Ref 135493743679. Available balance: INR 11,828.98. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_031",
+    "ts": "2026-02-14T16:08:16+05:30",
+    "channel": "email",
+    "sender": "security-noreply@linkedin.com",
+    "body": "New sign-in to your LinkedIn account from a new device. Review your account activity if this wasn't you."
+  },
+  {
+    "id": "evt_032",
+    "ts": "2026-02-21T20:16:00+05:30",
+    "channel": "sms",
+    "sender": "SONYLIV",
+    "body": "You've logged into SonyLIV on a new device on 21-Feb-26. Not you? Reset your password immediately."
+  },
+  {
+    "id": "evt_033",
+    "ts": "2026-02-22T11:00:20+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "Get up to INR 10,00,000 Personal Loan at 10.75% p.a. Instant approval, zero paperwork. Apply: icicibank.com/pl"
+  },
+  {
+    "id": "evt_034",
+    "ts": "2026-02-24T16:39:18+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Your Amazon order 'Yoga Mat' (ID 417-7122854-9052401) is Out for Delivery, arriving today by 9 PM."
+  },
+  {
+    "id": "evt_035",
+    "ts": "2026-02-25T19:00:00+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Your Zomato Pro order #301866 is being prepared! Enjoy your exclusive member discount. Track: zmto.app/t/301866"
+  },
+  {
+    "id": "evt_036",
+    "ts": "2026-02-25T19:38:00+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Order #301866 delivered! Hope you enjoyed your Zomato Pro meal. Rate your delivery partner in the app."
+  },
+  {
+    "id": "evt_037",
+    "ts": "2026-03-01T09:04:02+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards ZOMATOPRO on 01-Mar-26. Info: UPI Ref 480429628180. Available balance: INR 8,944.46. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_038",
+    "ts": "2026-03-03T08:00:40+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 499.00 has been debited from a/c XX7823 towards PRACTOPLUS on 03-Mar-26. Info: UPI Ref 605143958596. Available balance: INR 10,527.22. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_039",
+    "ts": "2026-03-06T09:16:12+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards NETFLIX on 06-Mar-26. Info: UPI Ref 195181056185. Available balance: INR 7,787.75. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_040",
+    "ts": "2026-03-06T13:11:10+05:30",
+    "channel": "sms",
+    "sender": "MYNTRA",
+    "body": "END OF REASON SALE is LIVE! Flat 50-80% off. Shop your favourite brands now."
+  },
+  {
+    "id": "evt_041",
+    "ts": "2026-03-07T10:42:30+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 299.00 has been debited from a/c XX7823 towards AUDIBLE on 07-Mar-26. Info: UPI Ref 241337124609. Available balance: INR 3,425.89. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_042",
+    "ts": "2026-03-08T17:47:04+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Your Amazon order 'Bluetooth Speaker' (ID 449-2699094-9079563) is Out for Delivery, arriving today by 9 PM."
+  },
+  {
+    "id": "evt_043",
+    "ts": "2026-03-11T12:29:34+05:30",
+    "channel": "sms",
+    "sender": "PRACTO",
+    "body": "Appointment confirmed with Dr. Iyer (Nutritionist) on 11 Mar via Practo Plus. Video consult link will be shared 10 mins prior."
+  },
+  {
+    "id": "evt_044",
+    "ts": "2026-03-12T10:57:15+05:30",
+    "channel": "email",
+    "sender": "no-reply@audible.in",
+    "body": "Your Audible membership credit for March has been added to your account. 1 credit available to redeem."
+  },
+  {
+    "id": "evt_045",
+    "ts": "2026-03-12T13:42:03+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 99.00 has been debited from a/c XX7823 towards SONYLIV on 12-Mar-26. Info: UPI Ref 706745675050. Available balance: INR 11,234.95. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_046",
+    "ts": "2026-03-16T12:39:59+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 1300.00 has been debited from a/c XX7823 towards LINKEDIN PREMIUM on 16-Mar-26. Info: UPI Ref 391970420843. Available balance: INR 13,047.95. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_047",
+    "ts": "2026-03-16T13:29:42+05:30",
+    "channel": "email",
+    "sender": "security-noreply@linkedin.com",
+    "body": "New sign-in to your LinkedIn account from a new device. Review your account activity if this wasn't you."
+  },
+  {
+    "id": "evt_048",
+    "ts": "2026-03-18T11:26:56+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 1499.00 has been debited from a/c XX7823 towards AMAZON PRIME on 18-Mar-26. Info: UPI Ref 679214759768. Available balance: INR 2,607.81. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_049",
+    "ts": "2026-03-25T09:30:00+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "Reminder: INR 149.00 will be auto-debited towards SonyLIV from A/c XX7823 on 01-Apr-26 via UPI Autopay. Manage mandates in iMobile app. -ICICI Bank"
+  },
+  {
+    "id": "evt_050",
+    "ts": "2026-04-02T09:15:50+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 499.00 has been debited from a/c XX7823 towards PRACTOPLUS on 02-Apr-26. Info: UPI Ref 616569659684. Available balance: INR 10,585.31. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_051",
+    "ts": "2026-04-03T10:53:52+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards ZOMATOPRO on 03-Apr-26. Info: UPI Ref 843539893842. Available balance: INR 11,174.42. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_052",
+    "ts": "2026-04-05T10:30:50+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards NETFLIX on 05-Apr-26. Info: UPI Ref 363393285810. Available balance: INR 10,286.55. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_053",
+    "ts": "2026-04-06T09:39:36+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 299.00 has been debited from a/c XX7823 towards AUDIBLE on 06-Apr-26. Info: UPI Ref 774281409893. Available balance: INR 9,832.31. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_054",
+    "ts": "2026-04-07T21:36:52+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "260816 is your OTP to login to Netflix. Valid for 10 mins. Do not share this OTP with anyone. -ICICI"
+  },
+  {
+    "id": "evt_055",
+    "ts": "2026-04-08T18:55:12+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 315.65 has been debited from a/c XX7823 towards PVR CINEMAS on 08-Apr-26. Info: UPI Ref 483688453970. Available balance: INR 14,217.34. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_056",
+    "ts": "2026-04-09T13:39:59+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards SONYLIV on 09-Apr-26. Info: UPI Ref 163737120291. Available balance: INR 2,172.15. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_057",
+    "ts": "2026-04-14T18:50:03+05:30",
+    "channel": "sms",
+    "sender": "BMSHOW",
+    "body": "New movies just released! Book your tickets on BookMyShow now and get 15% cashback."
+  },
+  {
+    "id": "evt_058",
+    "ts": "2026-04-15T13:43:19+05:30",
+    "channel": "sms",
+    "sender": "PRACTO",
+    "body": "Appointment confirmed with Dr. Iyer (Nutritionist) on 15 Apr via Practo Plus. Video consult link will be shared 10 mins prior."
+  },
+  {
+    "id": "evt_059",
+    "ts": "2026-04-16T09:11:42+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 1300.00 has been debited from a/c XX7823 towards LINKEDIN PREMIUM on 16-Apr-26. Info: UPI Ref 508112278751. Available balance: INR 8,271.30. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_060",
+    "ts": "2026-04-16T13:54:24+05:30",
+    "channel": "email",
+    "sender": "security-noreply@linkedin.com",
+    "body": "New sign-in to your LinkedIn account from a new device. Review your account activity if this wasn't you."
+  },
+  {
+    "id": "evt_061",
+    "ts": "2026-04-18T22:13:41+05:30",
+    "channel": "sms",
+    "sender": "SONYLIV",
+    "body": "You've logged into SonyLIV on a new device on 18-Apr-26. Not you? Reset your password immediately."
+  },
+  {
+    "id": "evt_062",
+    "ts": "2026-04-21T14:56:43+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Your Amazon order 'Backpack' (ID 458-5563239-6800529) is Out for Delivery, arriving today by 9 PM."
+  },
+  {
+    "id": "evt_063",
+    "ts": "2026-04-26T10:42:58+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 165.22 has been debited from a/c XX7823 towards CHAI SUTTA BAR on 26-Apr-26. Info: UPI Ref 217586139909. Available balance: INR 8,860.98. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_064",
+    "ts": "2026-05-03T10:50:40+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards ZOMATOPRO on 03-May-26. Info: UPI Ref 852221928713. Available balance: INR 4,324.82. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_065",
+    "ts": "2026-05-04T09:01:59+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 499.00 has been debited from a/c XX7823 towards PRACTOPLUS on 04-May-26. Info: UPI Ref 414107071290. Available balance: INR 6,492.08. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_066",
+    "ts": "2026-05-06T12:13:04+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards NETFLIX on 06-May-26. Info: UPI Ref 612948605748. Available balance: INR 5,955.77. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_067",
+    "ts": "2026-05-08T09:48:08+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 299.00 has been debited from a/c XX7823 towards AUDIBLE on 08-May-26. Info: UPI Ref 167431091583. Available balance: INR 3,513.57. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_068",
+    "ts": "2026-05-12T12:49:39+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards SONYLIV on 12-May-26. Info: UPI Ref 258717979973. Available balance: INR 8,336.15. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_069",
+    "ts": "2026-05-13T09:12:26+05:30",
+    "channel": "email",
+    "sender": "no-reply@audible.in",
+    "body": "Your Audible membership credit for May has been added to your account. 1 credit available to redeem."
+  },
+  {
+    "id": "evt_070",
+    "ts": "2026-05-14T11:03:14+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 1300.00 has been debited from a/c XX7823 towards LINKEDIN PREMIUM on 14-May-26. Info: UPI Ref 516622944489. Available balance: INR 3,631.08. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_071",
+    "ts": "2026-05-14T16:53:06+05:30",
+    "channel": "email",
+    "sender": "security-noreply@linkedin.com",
+    "body": "New sign-in to your LinkedIn account from a new device. Review your account activity if this wasn't you."
+  },
+  {
+    "id": "evt_072",
+    "ts": "2026-05-16T15:48:04+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Your Amazon order 'Backpack' (ID 471-4920631-9554634) is Out for Delivery, arriving today by 9 PM."
+  },
+  {
+    "id": "evt_073",
+    "ts": "2026-05-24T15:33:36+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "Get up to INR 10,00,000 Personal Loan at 10.75% p.a. Instant approval, zero paperwork. Apply: icicibank.com/pl"
+  },
+  {
+    "id": "evt_074",
+    "ts": "2026-05-26T09:15:00+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "Reminder: INR 299.00 will be auto-debited towards Audible from A/c XX7823 on 01-Jun-26 via UPI Autopay. Manage mandates in iMobile app. -ICICI Bank"
+  },
+  {
+    "id": "evt_075",
+    "ts": "2026-05-29T14:35:36+05:30",
+    "channel": "sms",
+    "sender": "SWGYPRO",
+    "body": "Zomato Pro: Get 1 month FREE when you refer a friend! Refer now: zmto.app/refer"
+  },
+  {
+    "id": "evt_076",
+    "ts": "2026-06-01T11:59:57+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards ZOMATOPRO on 01-Jun-26. Info: UPI Ref 591977060634. Available balance: INR 14,676.34. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_077",
+    "ts": "2026-06-03T11:42:54+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards NETFLIX on 03-Jun-26. Info: UPI Ref 395847855286. Available balance: INR 7,130.36. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_078",
+    "ts": "2026-06-04T09:25:40+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 499.00 has been debited from a/c XX7823 towards PRACTOPLUS on 04-Jun-26. Info: UPI Ref 916277140680. Available balance: INR 4,865.18. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_079",
+    "ts": "2026-06-06T08:19:18+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 299.00 has been debited from a/c XX7823 towards AUDIBLE on 06-Jun-26. Info: UPI Ref 281398774825. Available balance: INR 11,402.08. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_080",
+    "ts": "2026-06-07T22:11:17+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "168932 is your OTP to login to Netflix. Valid for 10 mins. Do not share this OTP with anyone. -ICICI"
+  },
+  {
+    "id": "evt_081",
+    "ts": "2026-06-09T10:44:55+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards SONYLIV on 09-Jun-26. Info: UPI Ref 762567335416. Available balance: INR 10,297.51. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_082",
+    "ts": "2026-06-15T12:44:42+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 1300.00 has been debited from a/c XX7823 towards LINKEDIN PREMIUM on 15-Jun-26. Info: UPI Ref 919459215713. Available balance: INR 11,450.07. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_083",
+    "ts": "2026-06-15T15:23:52+05:30",
+    "channel": "email",
+    "sender": "security-noreply@linkedin.com",
+    "body": "New sign-in to your LinkedIn account from a new device. Review your account activity if this wasn't you."
+  },
+  {
+    "id": "evt_084",
+    "ts": "2026-06-16T21:46:12+05:30",
+    "channel": "sms",
+    "sender": "SONYLIV",
+    "body": "You've logged into SonyLIV on a new device on 16-Jun-26. Not you? Reset your password immediately."
+  },
+  {
+    "id": "evt_085",
+    "ts": "2026-06-17T19:26:48+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Your Amazon order 'Sneakers' (ID 422-1914366-7288634) is Out for Delivery, arriving today by 9 PM."
+  },
+  {
+    "id": "evt_086",
+    "ts": "2026-06-23T12:12:08+05:30",
+    "channel": "sms",
+    "sender": "AMZNSAL",
+    "body": "Amazon Great Freedom Sale starts soon! Up to 80% off Electronics, Fashion & more. Set a reminder now."
+  },
+  {
+    "id": "evt_087",
+    "ts": "2026-07-01T09:09:56+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 149.00 has been debited from a/c XX7823 towards ZOMATOPRO on 01-Jul-26. Info: UPI Ref 470706944408. Available balance: INR 6,875.24. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_088",
+    "ts": "2026-07-02T08:09:42+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 499.00 has been debited from a/c XX7823 towards PRACTOPLUS on 02-Jul-26. Info: UPI Ref 259431097718. Available balance: INR 6,452.48. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_089",
+    "ts": "2026-07-06T10:27:04+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards NETFLIX on 06-Jul-26. Info: UPI Ref 917781334296. Available balance: INR 10,696.16. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_090",
+    "ts": "2026-07-09T10:35:24+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 299.00 has been debited from a/c XX7823 towards AUDIBLE on 09-Jul-26. Info: UPI Ref 972528701480. Available balance: INR 13,092.41. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_091",
+    "ts": "2026-07-09T13:21:33+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 199.00 has been debited from a/c XX7823 towards SONYLIV on 09-Jul-26. Info: UPI Ref 180444882497. Available balance: INR 3,908.43. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_092",
+    "ts": "2026-07-09T22:43:46+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "968351 is your OTP to login to Netflix. Valid for 10 mins. Do not share this OTP with anyone. -ICICI"
+  },
+  {
+    "id": "evt_093",
+    "ts": "2026-07-11T11:10:31+05:30",
+    "channel": "email",
+    "sender": "no-reply@audible.in",
+    "body": "Your Audible membership credit for July has been added to your account. 1 credit available to redeem."
+  },
+  {
+    "id": "evt_094",
+    "ts": "2026-07-15T11:54:25+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 1300.00 has been debited from a/c XX7823 towards LINKEDIN PREMIUM on 15-Jul-26. Info: UPI Ref 933816752373. Available balance: INR 4,135.66. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_095",
+    "ts": "2026-07-15T18:31:19+05:30",
+    "channel": "email",
+    "sender": "security-noreply@linkedin.com",
+    "body": "New sign-in to your LinkedIn account from a new device. Review your account activity if this wasn't you."
+  },
+  {
+    "id": "evt_096",
+    "ts": "2026-07-17T21:46:58+05:30",
+    "channel": "sms",
+    "sender": "SONYLIV",
+    "body": "You've logged into SonyLIV on a new device on 17-Jul-26. Not you? Reset your password immediately."
+  },
+  {
+    "id": "evt_097",
+    "ts": "2026-07-22T14:00:10+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Your Amazon order 'Yoga Mat' (ID 432-3655974-9876995) is Out for Delivery, arriving today by 9 PM."
+  },
+  {
+    "id": "evt_098",
+    "ts": "2026-07-23T14:20:14+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 533.09 has been debited from a/c XX7823 towards BIGBASKET on 23-Jul-26. Info: UPI Ref 417643170757. Available balance: INR 8,712.64. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  },
+  {
+    "id": "evt_099",
+    "ts": "2026-07-25T21:11:16+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "INR 222.11 has been debited from a/c XX7823 towards 1MG PHARMACY on 25-Jul-26. Info: UPI Ref 735334273102. Available balance: INR 4,725.46. Not you? SMS BLOCK to 9215676766 -ICICI Bank"
+  }
+]

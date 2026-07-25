@@ -31,6 +31,14 @@ export const ALIAS_MAP: Record<string, AliasEntry> = {
   GYMPASS: { canonical: "Gympass", sensorType: "login", rail: "upi-autopay" },
   BLINKIT: { canonical: "Blinkit", sensorType: "delivery", rail: "upi-autopay" },
   MYPROTEIN: { canonical: "MyProtein", sensorType: "receipt", rail: "card-si" },
+  HEALTHIFYMEPLUS: { canonical: "HealthifyMe Plus", sensorType: "none", rail: "upi-autopay" },
+  BOOKMYSHOWGOLD: { canonical: "BookMyShow Gold", sensorType: "receipt", rail: "upi-autopay" },
+  TIMESPRIME: { canonical: "Times Prime", sensorType: "none", rail: "upi-autopay" },
+  APPLEMUSIC: { canonical: "Apple Music", sensorType: "none", rail: "card-si" },
+  NOTIONLABS: { canonical: "Notion Plus", sensorType: "login", rail: "card-si" },
+  PRACTOPLUS: { canonical: "Practo Plus", sensorType: "none", rail: "upi-autopay" },
+  AUDIBLE: { canonical: "Audible", sensorType: "none", rail: "card-si" },
+  LINKEDINPREMIUM: { canonical: "LinkedIn Premium", sensorType: "login", rail: "card-si" },
 };
 
 export interface ResolvedTransaction {
