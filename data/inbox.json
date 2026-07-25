@@ -1,0 +1,674 @@
+[
+  {
+    "id": "evt_001",
+    "ts": "2026-01-01T08:46:07+05:30",
+    "channel": "sms",
+    "sender": "CULTFIT",
+    "body": "Booking confirmed! You're all set for Dance Fitness on 01-01 at Cult.fit. See you on the mat!"
+  },
+  {
+    "id": "evt_002",
+    "ts": "2026-01-02T08:01:47+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.119.00 debited from a/c XX4821 towards SPTFY*Spotify India on 02-01-26. UPI Ref 302388389. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_003",
+    "ts": "2026-01-03T10:45:04+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.99.00 debited from a/c XX4821 towards SWIGGY ONE MEMBERSHIP on 03-01-26. UPI Ref 304148050. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_004",
+    "ts": "2026-01-06T09:56:58+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards CULTFIT MEMBERSHIP on 06-01-26. UPI Ref 305774079. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_005",
+    "ts": "2026-01-07T12:48:10+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.299.00 debited from a/c XX4821 towards HOTSTAR SUBS on 07-01-26. UPI Ref 306665579. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_006",
+    "ts": "2026-01-07T19:48:51+05:30",
+    "channel": "sms",
+    "sender": "SPOTIFY",
+    "body": "Hi Aayushmaan, use OTP 267414 to log in to your Spotify account. Do not share your OTP with anyone to keep your account safe.\nRegards, - Spotify"
+  },
+  {
+    "id": "evt_007",
+    "ts": "2026-01-09T09:14:00+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.199.00 debited from a/c XX4821 towards NETFLIX.COM on 09-01-26. UPI Ref 307174441. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_008",
+    "ts": "2026-01-10T13:57:59+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "A/c X7051 debited INR 364.37 Dt 10-01-26 13:57:59 to CHAI POINT thru UPI:607991656753.Bal INR 2075.57 Not u?Fwd this SMS to 9264092640 to block UPI.-PNB"
+  },
+  {
+    "id": "evt_009",
+    "ts": "2026-01-12T11:03:25+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.500.00 debited from a/c XX4821 towards CANVA*Canva India on 12-01-26. UPI Ref 308863587. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_010",
+    "ts": "2026-01-12T17:51:55+05:30",
+    "channel": "email",
+    "sender": "no-reply@canva.com",
+    "body": "New login to your Canva account from a new device. If this wasn't you, secure your account immediately."
+  },
+  {
+    "id": "evt_011",
+    "ts": "2026-01-15T20:10:00+05:30",
+    "channel": "sms",
+    "sender": "SWIGGY",
+    "body": "Deepika has just placed an order (ID: 230305022733) for you on Swiggy. Click this link to track: http://r.swiggy.com/swiggy/ofo/track/05022733"
+  },
+  {
+    "id": "evt_012",
+    "ts": "2026-01-15T20:45:00+05:30",
+    "channel": "sms",
+    "sender": "SWIGGY",
+    "body": "Your Swiggy order 230305022733 has been delivered. Enjoy your meal! Rate your experience in the app."
+  },
+  {
+    "id": "evt_013",
+    "ts": "2026-01-15T22:25:42+05:30",
+    "channel": "sms",
+    "sender": "HOTSTAR",
+    "body": "New login to your Disney+ Hotstar account detected on 15-01-26. Manage devices in Settings > Account."
+  },
+  {
+    "id": "evt_014",
+    "ts": "2026-01-22T14:47:20+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Hi AAYUSHMAAN JI. Your order 'Skincare Kit' with ID 407-1841248-8999183 is Out for Delivery and will reach you before 9 PM today. Track here - fy1.in/AMZN/8999183"
+  },
+  {
+    "id": "evt_015",
+    "ts": "2026-01-24T19:09:17+05:30",
+    "channel": "sms",
+    "sender": "ZOMATO",
+    "body": "Zomato: Your favourite restaurants are offering up to 50% OFF today only! Order now: zmto.app/xyz123"
+  },
+  {
+    "id": "evt_016",
+    "ts": "2026-01-31T13:16:07+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Pre-approved Personal Loan of Rs.5,00,000 just for you! Apply now with minimal docs. T&C apply. -PNB"
+  },
+  {
+    "id": "evt_017",
+    "ts": "2026-02-02T09:14:08+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.119.00 debited from a/c XX4821 towards SPTFY*Spotify India on 02-02-26. UPI Ref 302872246. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_018",
+    "ts": "2026-02-02T11:05:54+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.99.00 debited from a/c XX4821 towards SWIGGY ONE MEMBERSHIP on 02-02-26. UPI Ref 304344098. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_019",
+    "ts": "2026-02-06T07:16:08+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards CULTFIT MEMBERSHIP on 06-02-26. UPI Ref 305358607. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_020",
+    "ts": "2026-02-06T12:31:01+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.299.00 debited from a/c XX4821 towards HOTSTAR SUBS on 06-02-26. UPI Ref 306217301. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_021",
+    "ts": "2026-02-08T07:04:57+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.199.00 debited from a/c XX4821 towards NETFLIX.COM on 08-02-26. UPI Ref 307132938. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_022",
+    "ts": "2026-02-09T21:17:09+05:30",
+    "channel": "sms",
+    "sender": "SPOTIFY",
+    "body": "Hi Aayushmaan, use OTP 325772 to log in to your Spotify account. Do not share your OTP with anyone to keep your account safe.\nRegards, - Spotify"
+  },
+  {
+    "id": "evt_023",
+    "ts": "2026-02-10T21:05:00+05:30",
+    "channel": "sms",
+    "sender": "SWIGGY",
+    "body": "Deepika has just placed an order (ID: 236082728027) for you on Swiggy. Click this link to track: http://r.swiggy.com/swiggy/ofo/track/82728027"
+  },
+  {
+    "id": "evt_024",
+    "ts": "2026-02-10T21:36:00+05:30",
+    "channel": "sms",
+    "sender": "SWIGGY",
+    "body": "Your Swiggy order 236082728027 has been delivered. Enjoy your meal! Rate your experience in the app."
+  },
+  {
+    "id": "evt_025",
+    "ts": "2026-02-12T12:12:12+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.500.00 debited from a/c XX4821 towards CANVA*Canva India on 12-02-26. UPI Ref 308662336. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_026",
+    "ts": "2026-02-12T18:08:27+05:30",
+    "channel": "email",
+    "sender": "no-reply@canva.com",
+    "body": "New login to your Canva account from a new device. If this wasn't you, secure your account immediately."
+  },
+  {
+    "id": "evt_027",
+    "ts": "2026-02-14T11:13:03+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.1499.00 debited from a/c XX4821 towards Amazon Prime Membership on 14-02-26. UPI Ref 309707314. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_028",
+    "ts": "2026-02-21T15:03:32+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Hi AAYUSHMAAN JI. Your order 'Desk Organizer' with ID 410-4117625-2149597 is Out for Delivery and will reach you before 9 PM today. Track here - fy1.in/AMZN/2149597"
+  },
+  {
+    "id": "evt_029",
+    "ts": "2026-02-22T09:22:49+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "A/c X7051 debited INR 265.15 Dt 22-02-26 09:22:49 to Blinkit thru UPI:659591437379.Bal INR 7443.23 Not u?Fwd this SMS to 9264092640 to block UPI.-PNB"
+  },
+  {
+    "id": "evt_030",
+    "ts": "2026-02-22T15:32:31+05:30",
+    "channel": "sms",
+    "sender": "MYNTRA",
+    "body": "MYNTRA END OF SEASON SALE: Flat 70% off on top brands. Shop now before stocks run out! myntra.app/EOSS26"
+  },
+  {
+    "id": "evt_031",
+    "ts": "2026-02-24T15:35:45+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "A/c X7051 debited INR 209.63 Dt 24-02-26 15:35:45 to ZEPTO MARKETPLA thru UPI:612926432934.Bal INR 7587.88 Not u?Fwd this SMS to 9264092640 to block UPI.-PNB"
+  },
+  {
+    "id": "evt_032",
+    "ts": "2026-02-25T08:21:07+05:30",
+    "channel": "sms",
+    "sender": "CULTFIT",
+    "body": "Booking confirmed! You're all set for Dance Fitness on 25-02 at Cult.fit. See you on the mat!"
+  },
+  {
+    "id": "evt_033",
+    "ts": "2026-02-28T10:51:51+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "A/c X7051 debited INR 104.36 Dt 28-02-26 10:51:51 to Blinkit thru UPI:601770791023.Bal INR 6024.23 Not u?Fwd this SMS to 9264092640 to block UPI.-PNB"
+  },
+  {
+    "id": "evt_034",
+    "ts": "2026-03-01T12:17:29+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.99.00 debited from a/c XX4821 towards SWIGGY ONE MEMBERSHIP on 01-03-26. UPI Ref 304766563. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_035",
+    "ts": "2026-03-02T08:43:47+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.119.00 debited from a/c XX4821 towards SPTFY*Spotify India on 02-03-26. UPI Ref 302671858. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_036",
+    "ts": "2026-03-05T09:57:37+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards CULTFIT MEMBERSHIP on 05-03-26. UPI Ref 305518801. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_037",
+    "ts": "2026-03-06T10:18:10+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Your Netflix subscription of Rs.199.00 will be debited towards Netflix via UPI Autopay mandate on 09-03-26. A/c X7051. To cancel, visit your bank app > UPI Mandates. -PNB"
+  },
+  {
+    "id": "evt_038",
+    "ts": "2026-03-07T19:55:15+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Hi AAYUSHMAAN JI. Your order 'Desk Organizer' with ID 451-3011363-5130808 is Out for Delivery and will reach you before 9 PM today. Track here - fy1.in/AMZN/5130808"
+  },
+  {
+    "id": "evt_039",
+    "ts": "2026-03-08T12:15:03+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards HOTSTAR SUBS on 08-03-26. UPI Ref 306352572. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_040",
+    "ts": "2026-03-08T19:05:24+05:30",
+    "channel": "sms",
+    "sender": "SPOTIFY",
+    "body": "Hi Aayushmaan, use OTP 201414 to log in to your Spotify account. Do not share your OTP with anyone to keep your account safe.\nRegards, - Spotify"
+  },
+  {
+    "id": "evt_041",
+    "ts": "2026-03-10T07:32:15+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.199.00 debited from a/c XX4821 towards NETFLIX.COM on 10-03-26. UPI Ref 307392004. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_042",
+    "ts": "2026-03-13T13:29:15+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.500.00 debited from a/c XX4821 towards CANVA*Canva India on 13-03-26. UPI Ref 308179046. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_043",
+    "ts": "2026-03-13T18:51:55+05:30",
+    "channel": "email",
+    "sender": "no-reply@canva.com",
+    "body": "New login to your Canva account from a new device. If this wasn't you, secure your account immediately."
+  },
+  {
+    "id": "evt_044",
+    "ts": "2026-03-14T06:29:00+05:30",
+    "channel": "sms",
+    "sender": "CULTFIT",
+    "body": "Booking confirmed! You're all set for Dance Fitness on 14-03 at Cult.fit. See you on the mat!"
+  },
+  {
+    "id": "evt_045",
+    "ts": "2026-03-17T23:57:33+05:30",
+    "channel": "sms",
+    "sender": "HOTSTAR",
+    "body": "New login to your Disney+ Hotstar account detected on 17-03-26. Manage devices in Settings > Account."
+  },
+  {
+    "id": "evt_046",
+    "ts": "2026-03-18T20:15:00+05:30",
+    "channel": "sms",
+    "sender": "SWIGGY",
+    "body": "Deepika has just placed an order (ID: 246033091279) for you on Swiggy. Click this link to track: http://r.swiggy.com/swiggy/ofo/track/33091279"
+  },
+  {
+    "id": "evt_047",
+    "ts": "2026-03-18T21:00:00+05:30",
+    "channel": "sms",
+    "sender": "SWIGGY",
+    "body": "Your Swiggy order 246033091279 has been delivered. Enjoy your meal! Rate your experience in the app."
+  },
+  {
+    "id": "evt_048",
+    "ts": "2026-03-20T14:45:21+05:30",
+    "channel": "sms",
+    "sender": "HDFCBK",
+    "body": "Congratulations! You're eligible for a credit card upgrade with 5X rewards. Apply now: hdfcbk.io/upgrade9"
+  },
+  {
+    "id": "evt_049",
+    "ts": "2026-03-25T13:40:16+05:30",
+    "channel": "sms",
+    "sender": "MMT",
+    "body": "MakeMyTrip: Monsoon flight sale! Flat Rs.2000 off on domestic flights. Book now: mmt.app/monsoon26"
+  },
+  {
+    "id": "evt_050",
+    "ts": "2026-03-26T22:26:51+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "A/c X7051 debited INR 311.36 Dt 26-03-26 22:26:51 to Blinkit thru UPI:635425608546.Bal INR 6405.31 Not u?Fwd this SMS to 9264092640 to block UPI.-PNB"
+  },
+  {
+    "id": "evt_051",
+    "ts": "2026-03-29T11:05:40+05:30",
+    "channel": "sms",
+    "sender": "FLIPKRT",
+    "body": "Flipkart Big Saving Days starts tomorrow! Get ready for deals up to 80% off. Set reminder now."
+  },
+  {
+    "id": "evt_052",
+    "ts": "2026-04-02T08:37:27+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.119.00 debited from a/c XX4821 towards SPTFY*Spotify India on 02-04-26. UPI Ref 302133326. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_053",
+    "ts": "2026-04-03T10:23:22+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.99.00 debited from a/c XX4821 towards SWIGGY ONE MEMBERSHIP on 03-04-26. UPI Ref 304319684. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_054",
+    "ts": "2026-04-05T07:08:32+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards CULTFIT MEMBERSHIP on 05-04-26. UPI Ref 305617488. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_055",
+    "ts": "2026-04-06T10:46:31+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards HOTSTAR SUBS on 06-04-26. UPI Ref 306955662. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_056",
+    "ts": "2026-04-06T18:05:26+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Hi AAYUSHMAAN JI. Your order 'Book: Atomic Habits' with ID 484-9770838-6307805 is Out for Delivery and will reach you before 9 PM today. Track here - fy1.in/AMZN/6307805"
+  },
+  {
+    "id": "evt_057",
+    "ts": "2026-04-11T07:34:08+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.199.00 debited from a/c XX4821 towards NETFLIX.COM on 11-04-26. UPI Ref 307858490. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_058",
+    "ts": "2026-04-12T11:41:34+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.500.00 debited from a/c XX4821 towards CANVA*Canva India on 12-04-26. UPI Ref 308976638. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_059",
+    "ts": "2026-04-12T15:05:59+05:30",
+    "channel": "email",
+    "sender": "no-reply@canva.com",
+    "body": "New login to your Canva account from a new device. If this wasn't you, secure your account immediately."
+  },
+  {
+    "id": "evt_060",
+    "ts": "2026-04-17T06:32:58+05:30",
+    "channel": "sms",
+    "sender": "CULTFIT",
+    "body": "Booking confirmed! You're all set for HRX Workout on 17-04 at Cult.fit. See you on the mat!"
+  },
+  {
+    "id": "evt_061",
+    "ts": "2026-04-27T15:02:00+05:30",
+    "channel": "sms",
+    "sender": "ICICIB",
+    "body": "Get instant personal loan up to Rs.10 Lakh at 10.5% p.a. Apply now, disbursal in 10 mins. -ICICI"
+  },
+  {
+    "id": "evt_062",
+    "ts": "2026-04-27T19:45:19+05:30",
+    "channel": "sms",
+    "sender": "TIRA",
+    "body": "ALERT: Flat Rs.500 off credited!\nValid only for 6 hours!\nUse coupon code SAVE500 on Tira: http://promotions.tirabeauty.com/onTIRA/l36B4qV"
+  },
+  {
+    "id": "evt_063",
+    "ts": "2026-04-28T09:56:15+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Your Hotstar subscription of Rs.399.00 will be debited towards Hotstar via UPI Autopay mandate on 01-05-26. A/c X7051. To cancel, visit your bank app > UPI Mandates. -PNB"
+  },
+  {
+    "id": "evt_064",
+    "ts": "2026-05-02T08:05:13+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.119.00 debited from a/c XX4821 towards SPTFY*Spotify India on 02-05-26. UPI Ref 302343962. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_065",
+    "ts": "2026-05-03T06:55:07+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards CULTFIT MEMBERSHIP on 03-05-26. UPI Ref 305260265. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_066",
+    "ts": "2026-05-03T09:38:40+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.99.00 debited from a/c XX4821 towards SWIGGY ONE MEMBERSHIP on 03-05-26. UPI Ref 304279451. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_067",
+    "ts": "2026-05-06T11:08:42+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards HOTSTAR SUBS on 06-05-26. UPI Ref 306598369. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_068",
+    "ts": "2026-05-08T21:38:16+05:30",
+    "channel": "sms",
+    "sender": "SPOTIFY",
+    "body": "Hi Aayushmaan, use OTP 946335 to log in to your Spotify account. Do not share your OTP with anyone to keep your account safe.\nRegards, - Spotify"
+  },
+  {
+    "id": "evt_069",
+    "ts": "2026-05-11T07:50:30+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.199.00 debited from a/c XX4821 towards NETFLIX.COM on 11-05-26. UPI Ref 307946721. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_070",
+    "ts": "2026-05-11T19:45:20+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Hi AAYUSHMAAN JI. Your order 'Cotton Bedsheet' with ID 430-5456272-7640184 is Out for Delivery and will reach you before 9 PM today. Track here - fy1.in/AMZN/7640184"
+  },
+  {
+    "id": "evt_071",
+    "ts": "2026-05-13T12:26:31+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.500.00 debited from a/c XX4821 towards CANVA*Canva India on 13-05-26. UPI Ref 308604740. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_072",
+    "ts": "2026-05-13T16:55:25+05:30",
+    "channel": "email",
+    "sender": "no-reply@canva.com",
+    "body": "New login to your Canva account from a new device. If this wasn't you, secure your account immediately."
+  },
+  {
+    "id": "evt_073",
+    "ts": "2026-05-19T20:15:14+05:30",
+    "channel": "sms",
+    "sender": "HOTSTAR",
+    "body": "New login to your Disney+ Hotstar account detected on 19-05-26. Manage devices in Settings > Account."
+  },
+  {
+    "id": "evt_074",
+    "ts": "2026-05-21T07:53:40+05:30",
+    "channel": "sms",
+    "sender": "CULTFIT",
+    "body": "Booking confirmed! You're all set for Yoga on 21-05 at Cult.fit. See you on the mat!"
+  },
+  {
+    "id": "evt_075",
+    "ts": "2026-05-26T19:00:42+05:30",
+    "channel": "sms",
+    "sender": "TIRA",
+    "body": "250 bonus points expires on Sunday!\nYou have total 334 points available in Tira account.\nhttp://promotions.tirabeauty.com/onTIRA/5goDzyP"
+  },
+  {
+    "id": "evt_076",
+    "ts": "2026-06-02T08:35:12+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.119.00 debited from a/c XX4821 towards SPTFY*Spotify India on 02-06-26. UPI Ref 302850800. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_077",
+    "ts": "2026-06-02T10:29:24+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.99.00 debited from a/c XX4821 towards SWIGGY ONE MEMBERSHIP on 02-06-26. UPI Ref 304383060. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_078",
+    "ts": "2026-06-03T22:34:07+05:30",
+    "channel": "sms",
+    "sender": "SPOTIFY",
+    "body": "Hi Aayushmaan, use OTP 496922 to log in to your Spotify account. Do not share your OTP with anyone to keep your account safe.\nRegards, - Spotify"
+  },
+  {
+    "id": "evt_079",
+    "ts": "2026-06-04T09:38:04+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards CULTFIT MEMBERSHIP on 04-06-26. UPI Ref 305503457. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_080",
+    "ts": "2026-06-07T12:33:55+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.499.00 debited from a/c XX4821 towards HOTSTAR SUBS on 07-06-26. UPI Ref 306736059. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_081",
+    "ts": "2026-06-11T07:06:06+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.199.00 debited from a/c XX4821 towards NETFLIX.COM on 11-06-26. UPI Ref 307790993. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_082",
+    "ts": "2026-06-12T12:24:00+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.500.00 debited from a/c XX4821 towards CANVA*Canva India on 12-06-26. UPI Ref 308509386. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_083",
+    "ts": "2026-06-12T17:59:50+05:30",
+    "channel": "email",
+    "sender": "no-reply@canva.com",
+    "body": "New login to your Canva account from a new device. If this wasn't you, secure your account immediately."
+  },
+  {
+    "id": "evt_084",
+    "ts": "2026-06-14T17:20:59+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Hi AAYUSHMAAN JI. Your order 'Notebook Set' with ID 496-2217071-1156287 is Out for Delivery and will reach you before 9 PM today. Track here - fy1.in/AMZN/1156287"
+  },
+  {
+    "id": "evt_085",
+    "ts": "2026-06-29T10:34:02+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "A/c X7051 debited INR 380.53 Dt 29-06-26 10:34:02 to Blinkit thru UPI:675516303568.Bal INR 3723.40 Not u?Fwd this SMS to 9264092640 to block UPI.-PNB"
+  },
+  {
+    "id": "evt_086",
+    "ts": "2026-07-02T11:14:28+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.119.00 debited from a/c XX4821 towards SPTFY*Spotify India on 02-07-26. UPI Ref 302717889. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_087",
+    "ts": "2026-07-02T11:53:49+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.99.00 debited from a/c XX4821 towards SWIGGY ONE MEMBERSHIP on 02-07-26. UPI Ref 304913694. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_088",
+    "ts": "2026-07-04T23:18:53+05:30",
+    "channel": "sms",
+    "sender": "SPOTIFY",
+    "body": "Hi Aayushmaan, use OTP 759176 to log in to your Spotify account. Do not share your OTP with anyone to keep your account safe.\nRegards, - Spotify"
+  },
+  {
+    "id": "evt_089",
+    "ts": "2026-07-06T09:33:16+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.399.00 debited from a/c XX4821 towards CULTFIT MEMBERSHIP on 06-07-26. UPI Ref 305680099. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_090",
+    "ts": "2026-07-08T14:34:13+05:30",
+    "channel": "sms",
+    "sender": "AMAZON",
+    "body": "Hi AAYUSHMAAN JI. Your order 'Face Wash Combo' with ID 464-5449324-3222252 is Out for Delivery and will reach you before 9 PM today. Track here - fy1.in/AMZN/3222252"
+  },
+  {
+    "id": "evt_091",
+    "ts": "2026-07-09T11:59:34+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.499.00 debited from a/c XX4821 towards HOTSTAR SUBS on 09-07-26. UPI Ref 306891952. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_092",
+    "ts": "2026-07-11T08:27:26+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.199.00 debited from a/c XX4821 towards NETFLIX.COM on 11-07-26. UPI Ref 307589710. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_093",
+    "ts": "2026-07-13T22:01:37+05:30",
+    "channel": "sms",
+    "sender": "HOTSTAR",
+    "body": "New login to your Disney+ Hotstar account detected on 13-07-26. Manage devices in Settings > Account."
+  },
+  {
+    "id": "evt_094",
+    "ts": "2026-07-15T13:27:44+05:30",
+    "channel": "sms",
+    "sender": "PNB",
+    "body": "Rs.500.00 debited from a/c XX4821 towards CANVA*Canva India on 15-07-26. UPI Ref 308865990. Not you? Call 1800-XXX-XXXX -HDFC Bank"
+  },
+  {
+    "id": "evt_095",
+    "ts": "2026-07-15T18:09:12+05:30",
+    "channel": "email",
+    "sender": "no-reply@canva.com",
+    "body": "New login to your Canva account from a new device. If this wasn't you, secure your account immediately."
+  },
+  {
+    "id": "evt_096",
+    "ts": "2026-07-18T15:59:42+05:30",
+    "channel": "sms",
+    "sender": "LEVIS",
+    "body": "Flat 60% Off is ending soon. Once the biggest EOSS offer ends, these prices are gone too. Shop those Levi's jeans, shirts, & more ct3.io/TpTNH *T&C"
+  }
+]

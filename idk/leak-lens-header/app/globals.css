@@ -1,14 +1,13 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  /* Bundled via next/font in app/layout.tsx — no Google Fonts CDN at runtime. */
-  --font-sans: var(--font-inter), sans-serif;
-  --font-mono: var(--font-ibm-plex-mono), monospace;
-  --font-serif: var(--font-fraunces), serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-serif: 'Fraunces', serif;
   --color-loss: #C8361E;
   --color-recovery: #2E6E4E;
   --color-ink: #1A1714;
@@ -167,9 +166,6 @@
   }
   body {
     @apply bg-background text-foreground;
-  }
-  html {
-    @apply font-sans;
   }
 
   /* Forensic ledger color utilities */

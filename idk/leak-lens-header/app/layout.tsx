@@ -1,9 +1,8 @@
+import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Fraunces, IBM_Plex_Mono, Inter } from 'next/font/google'
 import './globals.css'
 
-// Bundled at build time via next/font — self-hosted, zero runtime requests
-// to Google Fonts.
 const fraunces = Fraunces({
   variable: '--font-fraunces',
   subsets: ['latin'],
@@ -25,6 +24,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'LeakLens - Subscription Auditor',
   description: 'Find subscription money leaks by reading your SMS inbox',
+  generator: 'v0.app',
   icons: {
     icon: [
       {
@@ -62,7 +62,10 @@ export default function RootLayout({
       lang="en"
       className={`bg-background ${fraunces.variable} ${ibmPlexMono.variable} ${inter.variable}`}
     >
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        {children}
+        {process.env.NODE_ENV === 'production' && <Analytics />}
+      </body>
     </html>
   )
 }
