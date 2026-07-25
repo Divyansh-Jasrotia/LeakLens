@@ -1,6 +1,6 @@
 # LeakLens
 
-> ### 🔗 Live demo: **[ADD DEPLOYMENT LINK HERE]**
+> ### 🔗 Live demo: https://leaklens-henna.vercel.app/
 >
 > _Replace this line with the deployed URL before submitting._
 > Source: <https://github.com/ranvir7123/LeakLens>
