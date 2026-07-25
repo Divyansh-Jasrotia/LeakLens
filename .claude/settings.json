@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(npx vitest *)",
-      "Bash(cp idk/leak-lens-header/components/*.tsx components/)",
-      "Bash(cp idk/leak-lens-header/components/ui/*.tsx components/ui/)"
-    ]
-  }
-}
