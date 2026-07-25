@@ -69,15 +69,12 @@ function toSubscription(item: EntityAnalysis): Subscription {
   const sortedTransactions = [...item.entity.transactions].sort(
     (a, b) => new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime()
   )
-  const monthlyAmount =
-    item.recurrence.cadence === 'monthly'
-      ? item.recurrence.latestAmount
-      : Math.round(item.recurrence.annualizedSpend / 12)
-
   return {
     id: item.entity.id,
     merchant: item.entity.name,
-    monthlyAmount,
+    // What the bank actually charged, shown as-is. The UI labels the period
+    // from `cadence` rather than converting between periods.
+    billedAmount: item.recurrence.latestAmount,
     verdict,
     evidence: buildEvidence(item, verdict),
     charges: sortedTransactions.map((t) => ({ amount: t.amount, timestamp: t.timestamp })),

@@ -3,6 +3,7 @@
 import { Subscription } from '@/lib/types'
 import { VerdictStamp } from './verdict-stamp'
 import { GlossaryPopover } from './glossary-popover'
+import { cadenceSuffix } from '@/lib/utils'
 import { useEffect, useState } from 'react'
 
 interface DetailDrawerProps {
@@ -10,12 +11,33 @@ interface DetailDrawerProps {
   onClose: () => void
 }
 
+// The bar chart is sized in explicit pixels rather than percentages. A
+// percentage height only resolves against a parent with a *definite* height,
+// and the bars' old parent was a `flex-1` box whose height came from flex
+// layout — so the bars could collapse depending on how the browser resolved
+// it. Deriving every height from these constants keeps the chart identical
+// in dev and in the static production build.
+const CHART_HEIGHT_PX = 128 // plot area
+const LABEL_HEIGHT_PX = 16 // the ₹ amount above each bar
+const TRACK_HEIGHT_PX = CHART_HEIGHT_PX - LABEL_HEIGHT_PX
+// With no price movement there is no meaningful scale, so bars render at a
+// constant fraction of the track rather than all pinned to the top.
+const FLAT_BAR_RATIO = 0.68
+// Keep a very small charge visible next to a much larger one.
+const MIN_BAR_PX = 2
+
 export function DetailDrawer({ subscription, onClose }: DetailDrawerProps) {
   const [isVisible, setIsVisible] = useState(false)
 
+  // Flip to the visible state on the frame *after* the drawer mounts, so the
+  // browser has an off-screen starting position to transition from.
   useEffect(() => {
-    if (subscription) {
-      setIsVisible(true)
+    if (!subscription) return
+
+    const frame = requestAnimationFrame(() => setIsVisible(true))
+    return () => {
+      cancelAnimationFrame(frame)
+      setIsVisible(false)
     }
   }, [subscription])
 
@@ -85,9 +107,16 @@ export function DetailDrawer({ subscription, onClose }: DetailDrawerProps) {
                   {subscription.merchant}
                 </h2>
                 <div className="mt-3 font-mono text-4xl font-bold text-ink tabular-nums">
-                  ₹{subscription.monthlyAmount.toLocaleString('en-IN')}
-                  <span className="text-sm text-ink/60 ml-2">/month</span>
+                  ₹{subscription.billedAmount.toLocaleString('en-IN')}
+                  <span className="text-sm text-ink/60 ml-2">
+                    {cadenceSuffix(subscription.cadence)}
+                  </span>
                 </div>
+                {subscription.charges.length === 1 && (
+                  <p className="mt-1 font-mono text-[10px] uppercase text-ink/50">
+                    Only one charge seen — renewal period assumed
+                  </p>
+                )}
               </div>
               <VerdictStamp verdict={subscription.verdict} />
             </div>
@@ -98,7 +127,10 @@ export function DetailDrawer({ subscription, onClose }: DetailDrawerProps) {
             <h3 className="font-mono text-xs font-bold uppercase text-ink mb-4">
               Amount Over Time (6 months)
             </h3>
-            <div className="relative h-32 border-b border-ink/30">
+            <div
+              className="relative border-b border-ink/30"
+              style={{ height: CHART_HEIGHT_PX }}
+            >
               <div className="flex h-full items-end gap-2">
                 {chartSlots.map(({ month, charge }, idx) => {
                   const previousCharge = [...chartSlots.slice(0, idx)]
@@ -107,28 +139,39 @@ export function DetailDrawer({ subscription, onClose }: DetailDrawerProps) {
                   const priceIncreased = Boolean(
                     charge && previousCharge && charge.amount > previousCharge.amount
                   )
-                  const height = charge && maxCharge > 0
-                    ? flatCharges
-                      ? 68
-                      : (charge.amount / maxCharge) * 100
-                    : 0
+                  const barHeightPx =
+                    charge && maxCharge > 0
+                      ? Math.max(
+                          MIN_BAR_PX,
+                          Math.round(
+                            (flatCharges ? FLAT_BAR_RATIO : charge.amount / maxCharge) *
+                              TRACK_HEIGHT_PX
+                          )
+                        )
+                      : 0
 
                   return (
                     <div
                       key={monthKey(month)}
-                      className="flex-1 h-full min-w-0 flex flex-col justify-end items-center"
+                      className="flex-1 min-w-0 flex flex-col justify-end items-center"
                     >
                       {charge && (
                         <>
-                          <span className="h-4 text-center font-mono text-[10px] text-ink/60 tabular-nums">
+                          <span
+                            className="flex items-center justify-center text-center font-mono text-[10px] leading-none text-ink/60 tabular-nums"
+                            style={{ height: LABEL_HEIGHT_PX }}
+                          >
                             ₹{charge.amount.toLocaleString('en-IN')}
                           </span>
-                          <div className="flex-1 w-full flex items-end">
+                          <div
+                            className="w-full flex items-end"
+                            style={{ height: TRACK_HEIGHT_PX }}
+                          >
                             <div
-                              className={`w-full rounded-t-sm transition-colors ${
+                              className={`w-full transition-colors ${
                                 priceIncreased ? 'bg-loss' : 'bg-recovery'
                               }`}
-                              style={{ height: `${height}%` }}
+                              style={{ height: barHeightPx }}
                               title={`₹${charge.amount.toLocaleString('en-IN')}`}
                             />
                           </div>

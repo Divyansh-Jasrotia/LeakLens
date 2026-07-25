@@ -1,7 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-
 interface TopHeaderProps {
   onReplayTour?: () => void
   onImportOwn?: () => void

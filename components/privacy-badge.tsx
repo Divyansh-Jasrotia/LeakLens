@@ -3,12 +3,10 @@
 import { useEffect, useState } from 'react'
 
 export function PrivacyBadge() {
-  const [mounted, setMounted] = useState(false)
+  // Server and first client render agree on 0, so no mount guard is needed.
   const [requestCount, setRequestCount] = useState(0)
 
   useEffect(() => {
-    setMounted(true)
-
     if (typeof PerformanceObserver === 'undefined') return
 
     // Counts only requests that happen from this point forward — the
@@ -25,8 +23,6 @@ export function PrivacyBadge() {
 
     return () => observer.disconnect()
   }, [])
-
-  if (!mounted) return null
 
   return (
     <div className="fixed bottom-4 right-4 z-40 flex items-center gap-2 border border-ink/30 bg-paper/95 px-3 py-2 font-mono text-xs text-ink/70">

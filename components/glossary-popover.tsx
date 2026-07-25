@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useCallback } from 'react'
 import { createPortal } from 'react-dom'
 
 interface GlossaryPopoverProps {
@@ -25,7 +25,9 @@ export function GlossaryPopover({
   const containerRef = useRef<HTMLSpanElement>(null)
   const buttonRef = useRef<HTMLDivElement>(null)
 
-  const calculatePosition = () => {
+  // Stable identities so the effect's cleanup removes the same listeners it
+  // added, instead of leaking one set per render.
+  const calculatePosition = useCallback(() => {
     if (!buttonRef.current) return
 
     const rect = buttonRef.current.getBoundingClientRect()
@@ -45,21 +47,16 @@ export function GlossaryPopover({
       : rect.right + gap
 
     setPopoverPos({ top, left, side })
-  }
+  }, [])
 
-  const handleClick = (e: React.MouseEvent) => {
-    e.stopPropagation()
-    setIsOpen(!isOpen)
-  }
-
-  const handleClickOutside = (e: MouseEvent) => {
+  const handleClickOutside = useCallback((e: MouseEvent) => {
     if (
       containerRef.current &&
       !containerRef.current.contains(e.target as Node)
     ) {
       setIsOpen(false)
     }
-  }
+  }, [])
 
   useEffect(() => {
     if (isOpen) {
@@ -74,7 +71,7 @@ export function GlossaryPopover({
       window.removeEventListener('resize', calculatePosition)
       window.removeEventListener('scroll', calculatePosition, true)
     }
-  }, [isOpen])
+  }, [isOpen, calculatePosition, handleClickOutside])
 
   return (
     <span ref={containerRef} className="inline-flex items-center gap-1">
@@ -84,7 +81,7 @@ export function GlossaryPopover({
         onClick={(e) => {
           e.stopPropagation()
           e.preventDefault()
-          handleClick(e as any)
+          setIsOpen((open) => !open)
         }}
         onMouseDown={(e) => {
           e.stopPropagation()
@@ -96,7 +93,7 @@ export function GlossaryPopover({
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault()
             e.stopPropagation()
-            setIsOpen(!isOpen)
+            setIsOpen((open) => !open)
           }
         }}
         className="inline-flex items-center justify-center w-4 h-4 border border-ink text-ink rounded-full flex-shrink-0 hover:bg-ink/5 transition cursor-pointer"

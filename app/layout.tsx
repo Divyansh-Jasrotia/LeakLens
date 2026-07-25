@@ -1,26 +1,9 @@
 import type { Metadata, Viewport } from 'next'
-import { Fraunces, IBM_Plex_Mono, Inter } from 'next/font/google'
+import { preload } from 'react-dom'
 import './globals.css'
 
-// Bundled at build time via next/font — self-hosted, zero runtime requests
-// to Google Fonts.
-const fraunces = Fraunces({
-  variable: '--font-fraunces',
-  subsets: ['latin'],
-  weight: ['400', '600', '700'],
-})
-
-const ibmPlexMono = IBM_Plex_Mono({
-  variable: '--font-ibm-plex-mono',
-  subsets: ['latin'],
-  weight: ['400', '600', '700'],
-})
-
-const inter = Inter({
-  variable: '--font-inter',
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-})
+// Fonts are self-hosted from /public/fonts and declared in app/fonts.css.
+// Nothing is fetched from Google — not at build time, not at runtime.
 
 export const metadata: Metadata = {
   title: 'LeakLens - Subscription Auditor',
@@ -57,11 +40,24 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  // Fonts are only discovered once the CSS has parsed, which costs a round
+  // trip. Preload the two faces used above the fold: body copy, and the
+  // mono face the hero's rupee total is set in. react-dom's preload() emits
+  // exactly one tag — a <link> written in JSX gets hoisted *and* rendered,
+  // so it ends up in the HTML twice.
+  preload('/fonts/inter-latin.woff2', {
+    as: 'font',
+    type: 'font/woff2',
+    crossOrigin: 'anonymous',
+  })
+  preload('/fonts/ibm-plex-mono-700-latin.woff2', {
+    as: 'font',
+    type: 'font/woff2',
+    crossOrigin: 'anonymous',
+  })
+
   return (
-    <html
-      lang="en"
-      className={`bg-background ${fraunces.variable} ${ibmPlexMono.variable} ${inter.variable}`}
-    >
+    <html lang="en" className="bg-background">
       <body className="font-sans antialiased">{children}</body>
     </html>
   )

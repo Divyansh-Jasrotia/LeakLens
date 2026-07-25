@@ -21,23 +21,26 @@ export function DashboardHero({
   silentHikes,
   ignoredPromos,
 }: DashboardHeroProps) {
-  const [displayedAmount, setDisplayedAmount] = useState(0)
+  // null until the count-up animation produces its first frame, so the
+  // rendered value can be derived rather than seeded from an effect.
+  const [animatedAmount, setAnimatedAmount] = useState<number | null>(null)
   const prefersReducedMotion = useReducedMotion()
 
   useEffect(() => {
-    if (prefersReducedMotion) {
-      setDisplayedAmount(totalLeaking)
-      return
-    }
+    if (prefersReducedMotion) return
 
     const controls = animate(0, totalLeaking, {
       duration: 1.5,
       ease: 'easeOut',
-      onUpdate: (value) => setDisplayedAmount(Math.floor(value)),
+      onUpdate: (value) => setAnimatedAmount(Math.floor(value)),
     })
 
     return () => controls.stop()
   }, [totalLeaking, prefersReducedMotion])
+
+  const displayedAmount = prefersReducedMotion
+    ? totalLeaking
+    : (animatedAmount ?? 0)
 
   return (
     <div className="mb-12 text-center">

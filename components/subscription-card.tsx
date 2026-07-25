@@ -5,6 +5,7 @@ import { VerdictStamp } from './verdict-stamp'
 import { GlossaryPopover } from './glossary-popover'
 import { useState, useRef } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
+import { cadenceSuffix } from '@/lib/utils'
 
 interface SubscriptionCardProps {
   subscription: Subscription
@@ -33,7 +34,9 @@ export function SubscriptionCard({
   tourId,
 }: SubscriptionCardProps) {
   const [isHovered, setIsHovered] = useState(false)
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
+  // Tilt is computed in the pointer handler (where measuring the card is
+  // allowed) and stored, so render never touches the ref.
+  const [tilt, setTilt] = useState({ rotateX: 0, rotateY: 0 })
   const [hasSoundPlayed, setHasSoundPlayed] = useState(false)
   const cardRef = useRef<HTMLButtonElement>(null)
   const prefersReducedMotion = useReducedMotion()
@@ -45,6 +48,7 @@ export function SubscriptionCard({
 
   const handleMouseLeave = () => {
     setIsHovered(false)
+    setTilt({ rotateX: 0, rotateY: 0 })
   }
 
   const handleMouseMove = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -54,7 +58,10 @@ export function SubscriptionCard({
     const x = e.clientX - rect.left
     const y = e.clientY - rect.top
 
-    setMousePos({ x, y })
+    setTilt({
+      rotateX: ((y - rect.height / 2) / (rect.height / 2)) * 5,
+      rotateY: ((x - rect.width / 2) / (rect.width / 2)) * -5,
+    })
 
     // Play sound only once on enter
     if (!hasSoundPlayed) {
@@ -63,24 +70,17 @@ export function SubscriptionCard({
     }
   }
 
-  // Calculate tilt based on mouse position
+  // Pure function of state — safe to call during render.
   const getTransform = () => {
     if (prefersReducedMotion) {
       return 'scale(1.02)'
     }
 
-    if (!isHovered || !cardRef.current) {
+    if (!isHovered) {
       return 'scale(1) rotateX(0deg) rotateY(0deg)'
     }
 
-    const rect = cardRef.current.getBoundingClientRect()
-    const centerX = rect.width / 2
-    const centerY = rect.height / 2
-
-    const rotateX = ((mousePos.y - centerY) / (rect.height / 2)) * 5
-    const rotateY = ((mousePos.x - centerX) / (rect.width / 2)) * -5
-
-    return `perspective(1000px) scale(1.03) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
+    return `perspective(1000px) scale(1.03) rotateX(${tilt.rotateX}deg) rotateY(${tilt.rotateY}deg)`
   }
 
   return (
@@ -119,8 +119,10 @@ export function SubscriptionCard({
               {subscription.isUnresolved ? 'Unknown subscription' : subscription.merchant}
             </h3>
             <div className="mt-3 font-mono text-2xl font-bold text-ink tabular-nums">
-              ₹{subscription.monthlyAmount.toLocaleString('en-IN')}
-              <span className="text-xs text-ink/60 ml-1">/month</span>
+              ₹{subscription.billedAmount.toLocaleString('en-IN')}
+              <span className="text-xs text-ink/60 ml-1">
+                {cadenceSuffix(subscription.cadence)}
+              </span>
             </div>
           </div>
 

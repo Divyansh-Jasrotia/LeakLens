@@ -1,11 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@import "./fonts.css";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  /* Bundled via next/font in app/layout.tsx — no Google Fonts CDN at runtime. */
+  /* Self-hosted from /public/fonts via app/fonts.css — no Google Fonts CDN
+   * at build time or runtime. */
   --font-sans: var(--font-inter), sans-serif;
   --font-mono: var(--font-ibm-plex-mono), monospace;
   --font-serif: var(--font-fraunces), serif;

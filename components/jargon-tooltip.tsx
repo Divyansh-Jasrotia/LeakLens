@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useCallback } from 'react'
 
 interface JargonTooltipProps {
   term: string
@@ -39,7 +39,9 @@ export function JargonTooltip({
     }
   }
 
-  const handleClickOutside = (e: MouseEvent) => {
+  // Stable identities so the effects' cleanups remove the same listeners
+  // they added, instead of leaking one set per render.
+  const handleClickOutside = useCallback((e: MouseEvent) => {
     if (
       tooltipRef.current &&
       !tooltipRef.current.contains(e.target as Node) &&
@@ -48,9 +50,9 @@ export function JargonTooltip({
     ) {
       setIsOpen(false)
     }
-  }
+  }, [])
 
-  const updatePosition = () => {
+  const updatePosition = useCallback(() => {
     if (!triggerRef.current || !isOpen) return
 
     const rect = triggerRef.current.getBoundingClientRect()
@@ -78,7 +80,7 @@ export function JargonTooltip({
       left,
       side,
     })
-  }
+  }, [isOpen])
 
   useEffect(() => {
     if (isOpen) {
@@ -90,7 +92,7 @@ export function JargonTooltip({
     return () => {
       document.removeEventListener('click', handleClickOutside)
     }
-  }, [isOpen])
+  }, [isOpen, updatePosition, handleClickOutside])
 
   // Re-update position on window resize/scroll
   useEffect(() => {
@@ -106,7 +108,7 @@ export function JargonTooltip({
       window.removeEventListener('scroll', handleScroll, true)
       window.removeEventListener('resize', handleResize)
     }
-  }, [isOpen])
+  }, [isOpen, updatePosition])
 
   return (
     <span
@@ -114,6 +116,8 @@ export function JargonTooltip({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}
+      title={term}
+      aria-label={`${term}: ${explanation}`}
       className="inline-block border-b border-dotted border-ink/60 cursor-help hover:border-ink transition-colors"
     >
       {children}

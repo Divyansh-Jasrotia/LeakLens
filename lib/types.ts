@@ -14,7 +14,13 @@ export interface LeakScoreBreakdown {
 export interface Subscription {
   id: string
   merchant: string
-  monthlyAmount: number
+  /**
+   * The amount actually charged most recently — never a derived figure.
+   * Pair it with `cadence` to label the period. Dividing an annual charge
+   * into a fake monthly rate produced nonsense like "₹7/month" for a
+   * one-off ₹89 charge.
+   */
+  billedAmount: number
   verdict: VerdictType
   evidence: EvidenceChip[]
   charges: { amount: number; timestamp: string }[]
