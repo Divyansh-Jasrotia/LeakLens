@@ -51,7 +51,7 @@ An upload must be a JSON array with one object per message. Each object requires
 ### Installation
 
 ```bash
-git clone https://github.com/Divyansh-Jasrotia/LeakLens.git
+git clone https://github.com/ranvir7123/LeakLens.git
 cd LeakLens
 npm ci
 npm run dev
