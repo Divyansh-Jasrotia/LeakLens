@@ -139,6 +139,9 @@ export function DetailDrawer({ subscription, onClose }: DetailDrawerProps) {
                   const priceIncreased = Boolean(
                     charge && previousCharge && charge.amount > previousCharge.amount
                   )
+                  const priceDecreased = Boolean(
+                    charge && previousCharge && charge.amount < previousCharge.amount
+                  )
                   const barHeightPx =
                     charge && maxCharge > 0
                       ? Math.max(
@@ -169,7 +172,11 @@ export function DetailDrawer({ subscription, onClose }: DetailDrawerProps) {
                           >
                             <div
                               className={`w-full transition-colors ${
-                                priceIncreased ? 'bg-loss' : 'bg-recovery'
+                                priceIncreased
+                                  ? 'bg-loss'
+                                  : priceDecreased
+                                    ? 'bg-recovery'
+                                    : 'bg-ink/40'
                               }`}
                               style={{ height: barHeightPx }}
                               title={`₹${charge.amount.toLocaleString('en-IN')}`}
