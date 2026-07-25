@@ -2,7 +2,7 @@
 
 LeakLens is a privacy-first subscription audit dashboard. It analyzes SMS or email transaction messages to surface recurring charges, estimate annual spend, identify likely savings, and suggest practical next actions.
 
-All inbox analysis happens in the browser. Uploaded data is validated locally and is not sent to a server.
+This demo is browser-only and requires users to upload SMS or email data for analysis. In the final product, LeakLens will be a mobile app that can securely access SMS messages directly (with user permission), eliminating the need for uploads. All processing will still happen locally on the device, ensuring that personal data never leaves the user's phone.
 
 ## What it does
 
