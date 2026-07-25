@@ -2,7 +2,7 @@
 
 > ### 🔗 Live demo: https://leaklens-henna.vercel.app/
 >
-> _Replace this line with the deployed URL before submitting._
+>
 > Source: <https://github.com/ranvir7123/LeakLens>
 
 LeakLens is a privacy-first subscription audit dashboard. It analyzes SMS or email transaction messages to surface recurring charges, estimate annual spend, identify likely savings, and suggest practical next actions.
