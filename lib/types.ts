@@ -17,7 +17,7 @@ export interface Subscription {
   monthlyAmount: number
   verdict: VerdictType
   evidence: EvidenceChip[]
-  charges: number[]
+  charges: { amount: number; timestamp: string }[]
   lastCharge: string // ISO date
   daysInactive?: number
   logoKey?: string // Known merchant identifier for logo rendering

@@ -19,11 +19,6 @@ function toVerdictType(verdict: Verdict): VerdictType {
   }
 }
 
-function latestFlaggedDrift(recurrence: EntityAnalysis['recurrence']) {
-  const flagged = recurrence.drift.filter((d) => d.flagged)
-  return flagged[flagged.length - 1]
-}
-
 const LOGO_KEY_BY_NAME: Record<string, string> = {
   netflix: 'netflix',
   spotify: 'spotify',
@@ -44,8 +39,8 @@ function buildEvidence(item: EntityAnalysis, verdictType: VerdictType): Evidence
   const days = item.sensor.daysSinceLastPing
 
   if (verdictType === 'PRICE_HIKE') {
-    const drift = latestFlaggedDrift(item.recurrence)
-    if (drift) {
+    const flaggedDrifts = item.recurrence.drift.filter((drift) => drift.flagged)
+    for (const drift of flaggedDrifts) {
       const pct = Math.round(drift.deltaPercent)
       chips.push({
         label: `₹${drift.fromAmount}→₹${drift.toAmount} DRIFT (+${pct}%)`,
@@ -85,7 +80,7 @@ function toSubscription(item: EntityAnalysis): Subscription {
     monthlyAmount,
     verdict,
     evidence: buildEvidence(item, verdict),
-    charges: sortedTransactions.map((t) => t.amount),
+    charges: sortedTransactions.map((t) => ({ amount: t.amount, timestamp: t.timestamp })),
     lastCharge: sortedTransactions[sortedTransactions.length - 1]?.timestamp ?? item.recurrence.drift[0]?.toTimestamp ?? '',
     daysInactive: item.sensor.daysSinceLastPing ?? undefined,
     logoKey: inferLogoKey(item.entity.name),
