@@ -23,6 +23,23 @@ export function DetailDrawer({ subscription, onClose }: DetailDrawerProps) {
 
   const leakScore = subscription.leakScore
   const recoverable = subscription.recoverableAmount
+  const referenceDate = new Date(subscription.lastCharge)
+  const chartEnd = Number.isNaN(referenceDate.getTime()) ? new Date() : referenceDate
+  const monthKey = (date: Date) => `${date.getFullYear()}-${date.getMonth()}`
+  const sortedCharges = [...subscription.charges].sort(
+    (a, b) => new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime()
+  )
+  const chartSlots = Array.from({ length: 6 }, (_, index) => {
+    const month = new Date(chartEnd.getFullYear(), chartEnd.getMonth() - 5 + index, 1)
+    const charge = sortedCharges
+      .filter((item) => monthKey(new Date(item.timestamp)) === monthKey(month))
+      .slice(-1)[0]
+
+    return { month, charge }
+  })
+  const chargeAmounts = subscription.charges.map((charge) => charge.amount)
+  const maxCharge = Math.max(...chargeAmounts, 0)
+  const flatCharges = chargeAmounts.length <= 1 || new Set(chargeAmounts).size === 1
 
   return (
     <>
@@ -81,22 +98,46 @@ export function DetailDrawer({ subscription, onClose }: DetailDrawerProps) {
             <h3 className="font-mono text-xs font-bold uppercase text-ink mb-4">
               Amount Over Time (6 months)
             </h3>
-            <div className="flex items-end gap-1 h-24">
-              {subscription.charges.map((charge, idx) => (
-                <div key={idx} className="flex-1 flex flex-col items-center">
-                  <div
-                    className={`w-full transition-colors ${
-                      idx > 0 &&
-                      subscription.charges[idx] > subscription.charges[idx - 1]
-                        ? 'bg-loss'
-                        : 'bg-ink'
-                    }`}
-                    style={{
-                      height: `${(charge / Math.max(...subscription.charges)) * 100}%`,
-                    }}
-                  />
-                </div>
-              ))}
+            <div className="relative h-32 border-b border-ink/30">
+              <div className="flex h-full items-end gap-2">
+                {chartSlots.map(({ month, charge }, idx) => {
+                  const previousCharge = [...chartSlots.slice(0, idx)]
+                    .reverse()
+                    .find((slot) => slot.charge)?.charge
+                  const priceIncreased = Boolean(
+                    charge && previousCharge && charge.amount > previousCharge.amount
+                  )
+                  const height = charge && maxCharge > 0
+                    ? flatCharges
+                      ? 68
+                      : (charge.amount / maxCharge) * 100
+                    : 0
+
+                  return (
+                    <div
+                      key={monthKey(month)}
+                      className="flex-1 h-full min-w-0 flex flex-col justify-end items-center"
+                    >
+                      {charge && (
+                        <>
+                          <span className="h-4 text-center font-mono text-[10px] text-ink/60 tabular-nums">
+                            ₹{charge.amount.toLocaleString('en-IN')}
+                          </span>
+                          <div className="flex-1 w-full flex items-end">
+                            <div
+                              className={`w-full rounded-t-sm transition-colors ${
+                                priceIncreased ? 'bg-loss' : 'bg-recovery'
+                              }`}
+                              style={{ height: `${height}%` }}
+                              title={`₹${charge.amount.toLocaleString('en-IN')}`}
+                            />
+                          </div>
+                        </>
+                      )}
+                    </div>
+                  )
+                })}
+              </div>
             </div>
             <div className="mt-2 font-mono text-xs text-ink/60 flex justify-between">
               <span>6 months ago</span>
